@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="page-header__wrapper">
+        <div class="page-header__logo">
+          <img src="#" width="75" height="22" alt="Pink">
+        </div>
+        <nav class="main-nav main-nav--opened">
+          <button class="main-nav_toggler main-nav_toggler--opened">Открыть меню</button>
+          <ul class="main-nav__list">
+            <li class="main-nav__item"><a href="index.html">Главная</a></li>
+            <li class="main-nav__item"><a href="photo.html">Фотографии</a></li>
+            <li class="main-nav__item"><a href="form.html">Конкурс</a></li>
+            <li class="main-nav__item"><a href="https://htmlacademy.ru">HTML Academy</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="contest-photos">
+      <div class="contest-photos__wrapper">
+        <h1>Фотографии пользователей</h1>
+        <section class="feed">
+          <h2 class="feed__title">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</h2>
+          <article class="feed-item">
+            <img src="#" width="320" height="137" alt="post picture">
+            <span class="feed-item__label">Панорма дня</span>
+            <h5 class="feed-item__username">Анна</h5>
+            <span class="feed-item__post-time">(5 минут назад)</span>
+            <p class="feed-item__comment">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+            <img class="feed-item__like-icon" src="#" width="13" height="12" alt="like-icon">
+            <span class="feed-item__likes-number">Нравится: 215</span>
+          </article>
+          <article class="feed-item">
+            <img src="#" alt="post picture" width="280" height="180">
+            <h5 class="feed-item__username">Левон</h5>
+            <span class="feed-item__post-time">(5 часов назад)</span>
+            <p class="feed-item__comment">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+            <img class="feed-item__like-icon" src="#" width="13" height="12" alt="like-icon">
+            <span class="feed-item__likes-number">Нравится: 356</span>
+          </article>
+          <article class="feed-item">
+            <img src="#" alt="post picture" width="280" height="180">
+            <h5 class="feed-item__username">Антон</h5>
+            <span class="feed-item__post-time">(12 часов назад)</span>
+            <p class="feed-item__comment">Соседи будут рады!</p>
+            <img class="feed-item__like-icon" src="#" width="13" height="12" alt="like-icon">
+            <span class="feed-item__likes-number">Нравится: 666</span>
+          </article>
+          <article class="feed-item">
+            <img src="#" alt="post picture" width="280" height="180">
+            <h5 class="feed-item__username">Борис</h5>
+            <span class="feed-item__post-time">(20 часов назад)</span>
+            <p class="feed-item__comment">Здесь могла быть ваша цитата о высоком и вечном.</p>
+            <img class="feed-item__like-icon" src="#" width="13" height="12" alt="like-icon">
+            <span class="feed-item__likes-number">Нравится: 215</span>
+          </article>
+          <article class="feed-item">
+            <img src="#" alt="post picture" width="280" height="180">
+            <h5 class="feed-item__username">Сергей</h5>
+            <span class="feed-item__post-time">(20 часов назад)</span>
+            <p class="feed-item__comment">Самая кубанская в мире!</p>
+            <img class="feed-item__like-icon" src="#" width="13" height="12" alt="like-icon">
+            <span class="feed-item__likes-number">Нравится: 4</span>
+          </article>
+          <article class="feed-item">
+            <img src="#" alt="post picture" width="280" height="180">
+            <h5 class="feed-item__username">Максим</h5>
+            <span class="feed-item__post-time">(40 часов назад)</span>
+            <p class="feed-item__comment">Где снег-то?</p>
+            <img class="feed-item__like-icon" src="#" width="13" height="12" alt="like-icon">
+            <span class="feed-item__likes-number">Нравится: 150</span>
+          </article>
+          <article class="feed-item">
+            <img src="#" alt="post picture" width="280" height="180">
+            <h5 class="feed-item__username">Надежда</h5>
+            <span class="feed-item__post-time">(45 часов назад)</span>
+            <p class="feed-item__comment">Всем GM и взаимные лайки!</p>
+            <img class="feed-item__like-icon" src="#" width="13" height="12" alt="like-icon">
+            <span class="feed-item__likes-number">Нравится: 2560</span>
+          </article>
+        </section>
+        <section class="upload">
+          <h4 class="upload__title">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</h4>
+          <div class="editor">
+            <img class="editor__uploaded-pic" src="#" width="280" height="374" alt="picture">
+            <ul class="editor-tools">
+              <li class="editor-tools__icon">
+                <img class="editor-tools__icon--crop" src="#" width="44" height="44" alt="crop">
+              </li>
+              <li class="editor-tools__icon">
+                <img class="editor-tools__icon--fill" src="#" width="48" height="43" alt="fill">
+              </li>
+              <li class="editor-tools__icon">
+                <img class="editor-tools__icon--contrast" src="#" width="32" height="32" alt="contrast">
+              </li>
+            </ul>
+             <input type="range" min="0" max="10" value="8">
+          </div>
+          <button class="upload__btn" type="submit">Запостить</button>
+          <button class="upload__btn" type="reset">Отмена</button>
+        </section>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <div class="page-footer__logo">
+          <a href="index.html">
+            <img src="#" alt="Logo" width="147" height="40">
+          </a>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-link social-link--twitter"></a>
+          <a href="#" class="social-link social-link--facebook"></a>
+          <a href="#" class="social-link social-link--youtube"></a>
+        </div>
+        <div class="copyright">
+          <p class="copyright__text">Разработано<a href="#" class="copyright__link">html academy</a></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
