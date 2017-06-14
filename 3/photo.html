@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <base href="https://htmlacademy-adaptive.github.io/170315-pink/3/">
+</head>
+  <body>
+    <header class="page-header">
+      <div class="page-header__logo">
+        <img src="img/logo-pink-white-mobile.svg" width="75" height="22" alt="Pink">
+      </div>
+      <nav class="main-nav main-nav--opened">
+        <button class="main-nav__toggler main-nav__toggler--opened">Меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a class="main-nav__link">Главная</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link  main__item--active">Фотографии</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="form.html">Конкурс</a></li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="https://htmlacademy.ru">HTML Academy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="contest-photo">
+      <h1 class="contest-photo__title">Фотографии<br>пользователей</h1>
+    </div>
+    <main class="page-content">
+      <section class="feed">
+        <div class="feed_wrapper">
+          <h2 class="feed__title">Взгляните на фотографии, которые выкладывают пользователи!<br> Видите, как не хватает ваших?</h2>
+          <article class="feed-item">
+            <div class="feed-item__panorama">
+              <img src="img/panorama-mobile@1x.jpg" width="320" height="137" alt="post picture">
+              <span class="feed-item__label">Панорма дня</span>
+            </div>
+            <div class="feed-item__comment">
+
+              <h3 class="feed-item__username">Анна <span class="feed-item__post-time">(5 минут назад)</span></h3>
+              <p class="feed-item__post-text">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+              <span class="feed-item__likes-counter">Нравится: 215</span>
+            </div>
+          </article>
+          <article class="feed-item">
+            <img class="feed-item__photo" src="img/photo-1-mobile@1x.jpg" width="280" height="180" alt="post picture">
+            <div class="feed-item__comment">
+              <h3 class="feed-item__username">Левон <span class="feed-item__post-time">(5 часов назад)</span></h3>
+              <p class="feed-item__post-text">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+              <span class="feed-item__likes-counter">Нравится: 356</span>
+            </div>
+          </article>
+          <article class="feed-item">
+            <img class="feed-item__photo" src="img/photo-2-mobile@1x.jpg" width="280" height="180" alt="post picture">
+            <div class="feed-item__comment">
+              <h3 class="feed-item__username">Антон <span class="feed-item__post-time">(12 часов назад)</span></h3>
+              <p class="feed-item__post-text">Соседи будут рады!</p>
+              <span class="feed-item__likes-counter">Нравится: 666</span>
+            </div>
+          </article>
+          <article class="feed-item">
+            <img class="feed-item__photo" src="img/photo-3-mobile@1x.jpg" width="280" height="180" alt="post picture">
+            <div class="feed-item__comment">
+              <h3 class="feed-item__username">Борис <span class="feed-item__post-time">(20 часов назад)</span></h3>
+              <p class="feed-item__post-text">Здесь могла быть ваша цитата о высоком и вечном.</p>
+              <span class="feed-item__likes-counter">Нравится: 215</span>
+            </div>
+          </article>
+          <article class="feed-item">
+            <img class="feed-item__photo" src="img/photo-4-mobile@1x.jpg" width="280" height="180" alt="post picture">
+            <div class="feed-item__comment">
+              <h3 class="feed-item__username">Сергей <span class="feed-item__post-time">(20 часов назад)</span></h3>
+              <p class="feed-item__post-text">Самая кубанская в мире!</p>
+              <span class="feed-item__likes-counter">Нравится: 4</span>
+            </div>
+          </article>
+          <article class="feed-item">
+            <img class="feed-item__photo" src="img/photo-5-mobile@1x.jpg" width="280" height="180" alt="post picture">
+            <div class="feed-item__comment">
+              <h3 class="feed-item__username">Максим <span class="feed-item__post-time">(40 часов назад)</span></h3>
+              <p class="feed-item__post-text">Где снег-то?</p>
+              <span class="feed-item__likes-counter">Нравится: 150</span>
+            </div>
+          </article>
+          <article class="feed-item">
+            <img class="feed-item__photo" src="img/photo-6-mobile@1x.jpg" width="280" height="180" alt="post picture">
+            <div class="feed-item__comment">
+              <h3 class="feed-item__username">Надежда <span class="feed-item__post-time">(45 часов назад)</span></h3>
+              <p class="feed-item__post-text">Всем GM и взаимные лайки!</p>
+              <span class="feed-item__likes-counter">Нравится: 2560</span>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="upload">
+        <h3 class="upload__title">Затмите их всех!<br> Выкладывайте все, что накопилось в телефоне!</h3>
+        <div class="editor">
+            <img class="editor__uploaded-pic" src="img/photo-7-mobile@1x.jpg" width="280" height="374" alt="picture">
+            <ul class="editor-tools">
+              <li class="editor-tools__icon">
+                <img class="editor-tools__icon-crop" src="img/icon-editor-crop.svg" alt="crop">
+              </li>
+              <li class="editor-tools__icon">
+                <img class="editor-tools__icon-fill" src="img/icon-editor-fill.svg" alt="fill">
+              </li>
+              <li class="editor-tools__icon">
+                <img class="editor-tools__icon-contrast" src="img/icon-editor-contrast.svg" alt="contrast">
+              </li>
+            </ul>
+             <input class="editor__range" type="range" min="0" max="10" value="8">
+             <hr class="editor__separator">
+             <button class="editor__btn btn" type="submit">Запостить</button>
+             <button class="editor__btn btn" type="reset" disabled>Отмена</button>
+          </div>
+
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <div class="page-footer__logo">
+          <a href="index.html">
+            <img src="img/logo-pink-blue-mobile.svg" alt="Logo" width="147" height="40">
+          </a>
+        </div>
+        <div class="social">
+          <a href="#" class="social__link social__link--twitter">Twitter</a>
+          <a href="#" class="social__link social__link--facebook">Facebook</a>
+          <a href="#" class="social__link social__link--youtube">Youtube</a>
+        </div>
+        <div class="copyright">
+          <p class="copyright__text">Разработано<a href="#" class="copyright__link"></a></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <base href="https://htmlacademy-adaptive.github.io/170315-pink/3/">
+</head>
+  <body>
+    <header class="page-header">
+      <div class="page-header__logo">
+        <img src="img/logo-pink-white-mobile.svg" width="75" height="22" alt="Pink">
+      </div>
+      <nav class="main-nav main-nav--opened">
+        <button class="main-nav__toggler main-nav__toggler--opened">Меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a class="main-nav__link">Главная</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="photo.html">Фотографии</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link main__item--active">Конкурс</a></li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="https://htmlacademy.ru">HTML Academy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="contest">
+      <div class="contest-intro">
+        <div class="contest-intro__wrapper">
+          <h2 class="contest-intro__title">Конкурс на самое безбашенное путешествие с Пинк</h2>
+        </div>
+      </div>
+        <form class="contest-form" action="https://echo.htmlacademy.ru/" method="post">
+          <div class="contest-form__wrapper">
+            <h2 class="contest-form__intro">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!</h2>
+            <fieldset class="contest-form__user-data">
+              <div class="contest-form__input">
+                <label class="contest-form__input-label" for="surname">Фамилия:</label>
+                <input class="contest-form__input-text" type="text" id="surname" name="surname" placeholder="Укажите фамилию *">
+              </div>
+              <div class="contest-form__input">
+                <label class="contest-form__input-label" for="name">Имя:</label>
+                <input class="contest-form__input-text" type="text" id="name" name="name" placeholder="Введите ваше имя *">
+              </div>
+              <div class="contest-form__input">
+                <label class="contest-form__input-label" for="patronymic">Отчество:</label>
+                <input class="contest-form__input-text" type="text" id="patronymic" name="patronymic" placeholder="Ну и отчество тоже">
+              </div>
+            </fieldset>
+            <fieldset class="contest-form__user-data contest-form__user-data--gray">
+              <h3 class="contest-form__title">Ваши безбашенные достижения в путешествии</h3>
+              <div class="contest-form__selection">
+                <input type="checkbox" id="shark" name="achievments" checked>
+                <label class="contest-form__selection-label" for="shark">Сделал селфи с акулой</label>
+              </div>
+              <div class="contest-form__selection">
+                <input type="checkbox" id="beach" name="achievments" checked>
+                <label class="contest-form__selection-label" for="beach">Обгорел на пляже</label>
+              </div>
+              <div class="contest-form__selection">
+                <input type="checkbox" id="chuck" name="achievments">
+                <label class="contest-form__selection-label" for="chuck">Видел Чака Норриса</label>
+              </div>
+              <div class="contest-form__selection">
+                <input type="checkbox" id="shoping" name="achievments">
+                <label class="contest-form__selection-label" for="shoping">Накупил сувениров</label>
+              </div>
+              <div class="contest-form__selection">
+                <input type="checkbox" id="tower" name="achievments" checked>
+                <label class="contest-form__selection-label" for="tower">Удержал башню</label>
+              </div>
+              <div class="contest-form__selection">
+                <input type="checkbox" id="destroy" name="achievments">
+                <label class="contest-form__selection-label" for="destroy">Разгромил отель</label>
+              </div>
+            </fieldset>
+            <fieldset class="contest-form__user-data">
+              <div class="contest-form__input">
+                <label class="contest-form__input-label" for="phone">Номер телефона</label>
+                <input class="contest-form__input-text" type="tel" id="phone" name="phone" placeholder="Номер, пожалуйста" pattern="[0-9]{1}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+              </div>
+              <div class="contest-form__input">
+                <label class="contest-form__input-label" for="e-mail">Адрес почты</label>
+                <input class="contest-form__input-text" type="email" id="e-mail" name="e-mail" placeholder="Введите почту *">
+              </div>
+            </fieldset>
+            <fieldset class="contest-form__user-data contest-form__user-data--gray">
+              <h3 class="contest-form__title">С каким приложением путешествовали?</h3>
+              <div class="contest-form__selection contest-form__selection--radio">
+                <input type="radio" id="ios" name="programm" checked>
+                <label class="contest-form__selection-label" for="ios">Pink для iOS</label>
+              </div>
+              <div class="contest-form__selection contest-form__selection--radio">
+                <input type="radio" id="android" name="programm">
+                <label class="contest-form__selection-label" for="android">Pink на Android</label>
+              </div>
+              <div class="contest-form__selection contest-form__selection--radio">
+                <input type="radio" id="winphone" name="programm">
+                <label class="contest-form__selection-label" for="winphone">Windows Phone</label>
+              </div>
+            </fieldset>
+            <fieldset class="contest-form__user-data">
+              <h3 class="contest-form__title">Опишите свои эмоции </h3>
+              <textarea class="contest-form__emotions" name="emotions" id="emotions" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+              <button class="contest-form__send" type="submit">Отправить форму</button>
+              <p class="contest-form__text"><span class="contest-form__text--red">*</span>— обязательные поля</p>
+            </fieldset>
+          </div>
+        </form>
+    </main>
+    <footer class="page-footer">
+        <div class="page-footer__logo">
+          <a href="index.html">
+            <img src="img/logo-pink-blue-mobile.svg" alt="Logo" width="147" height="40">
+          </a>
+        </div>
+        <div class="social">
+          <a href="#" class="social__link social__link--twitter">Twitter</a>
+          <a href="#" class="social__link social__link--facebook">Facebook</a>
+          <a href="#" class="social__link social__link--youtube">Youtube</a>
+        </div>
+        <div class="copyright">
+          <p class="copyright__text">Разработано</p>
+          <a href="https://htmlacademy.ru/" class="copyright__link"></a>
+        </div>
+    </footer>
+    <div class="popup popup-failure">
+      <h3 class="popup__title">Что-то пошло не так!</h3>
+      <p class="popup__text">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
+      <div class="popup__wrap popup__wrap--bg">
+        <button class="popup__btn" type="button">ОК</button>
+      </div>
+    </div>
+    <div class="popup popup-succes">
+      <b class="popup__title">Ваша заявка отправлена</b>
+      <p class="popup__text">Спасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и оповестим вас.</p>
+      <div class="popup__wrap">
+        <button class="popup__btn" type="button">Закрыть окно</button>
+      </div>
+    </div>
+  </body>
+</html>
