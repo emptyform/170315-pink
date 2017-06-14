@@ -1,0 +1,47 @@
+@import "../variables.scss";
+@import "../mixins.scss";
+@import "../fonts.scss";
+@import "../global.scss";
+
+.contacts {
+  min-height: 450px;
+  h2 {
+    @include visualy-hidden
+  }
+}
+
+.contacts__wrapper {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.contacts__description {
+  font-family: 'Open Sans';
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 45px;
+  text-align: center;
+  color: $gray--dark;
+}
+
+.contacts__item-title {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: $gray--dark;
+}
+.contacts__item-text {
+  font-family: 'Open Sans';
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  color: $pink;
+  margin: 0;
+}
+
+.contacts__map {
+  position: relative;
+  min-height: 220px;
+  background: url("../../img/bg-map-mobile@1x.png");
+}
