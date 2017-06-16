@@ -1,0 +1,80 @@
+@import "../variables.scss";
+@import "../mixins.scss";
+@import "../fonts.scss";
+@import "../global.scss";
+
+.editor {
+  min-height: 770px;
+  background-color: $bg--gray;
+}
+
+.editor__uploaded-pic {
+  padding: 20px 20px;
+  margin-bottom: 40px;
+}
+
+.editor-tools__icon {
+  display: inline-block;
+  float: left;
+  padding: 0  0 40px 45px;
+}
+
+.editor-tools__icon:last-of-type {
+  margin-top: 5px;
+}
+
+.editor__btn {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 275px;
+  padding: 20px 90px 20px 90px;
+}
+
+.editor__range {
+  -webkit-appearance: none;
+  display: block;
+  width: 240px;
+  height: 3px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  background-color: #000000;
+}
+
+.editor__range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: $bg--gray;
+  width: 20px;
+  height: 20px;
+  border: 2px solid $pink;
+  border-radius: 10px;
+}
+
+.editor__separator {
+  border-bottom: 1px solid $gray--light;
+  margin-bottom: 30px;
+}
+
+.editor__btn {
+  border-radius: 50px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+
+.editor__btn[type="submit"] {
+  border: 2px solid $pink;
+  color: $pink;
+  background-color: $bg--gray;
+  margin-bottom: 10px;
+}
+
+.editor__btn:disabled {
+  border: 2px solid $gray--light;
+  border-radius: 50px;
+  color: $gray--light;
+  background-color: #f2f2f2;
+  opacity: 0.3;
+}

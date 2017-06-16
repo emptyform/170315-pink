@@ -1,0 +1,33 @@
+@import "../variables.scss";
+@import "../mixins.scss";
+@import "../fonts.scss";
+@import "../global.scss";
+
+.reviews {
+  padding-top: 40px;
+  h2 {
+    @include visualy-hidden;
+  }
+}
+
+.reviews__wrapper {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.reviews__item-title {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  color: $txt-black;
+}
+
+.reviews__item-text {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
