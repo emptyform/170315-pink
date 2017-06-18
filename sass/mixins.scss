@@ -16,3 +16,17 @@
     clear: both;
   }
 }
+
+@mixin wrapper {
+  width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @media #{$tablet} {
+    width: 660px;
+  }
+
+  @media #{$desktop} {
+    width: 960px;
+  }
+}
