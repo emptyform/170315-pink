@@ -1,30 +1,25 @@
-@import "variables.scss";
-@import "mixins.scss";
-@import "fonts.scss";
-@import "global.scss";
+@import "global/variables.scss";
+@import "global/fonts.scss";
+@import "global/global.scss";
+@import "global/mixins.scss";
 @import "normalize.scss";
 
-@import "blocks/main-nav.scss";
-@import "blocks/intro.scss";
-@import "blocks/app.scss";
-@import "blocks/page-content.scss";
-@import "blocks/features.scss";
-@import "blocks/reviews.scss";
-@import "blocks/price.scss";
-@import "blocks/price-table.scss";
+@import "blocks/advantages.scss";
+@import "blocks/btn.scss";
 @import "blocks/contacts.scss";
-
-@import "blocks/contest-photo.scss";
-@import "blocks/feed.scss";
-@import "blocks/upload.scss";
 @import "blocks/editor.scss";
-
-
-@import "blocks/contest-intro.scss";
-@import "blocks/contest-form";
-@import "blocks/popup.scss";
-
-@import "blocks/page-header.scss";
+@import "blocks/filter-range.scss";
+@import "blocks/form.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/page-content.scss";
+@import "blocks/modal.scss";
+@import "blocks/page-content.scss";
 @import "blocks/page-footer.scss";
+@import "blocks/page-header.scss";
+@import "blocks/price.scss";
+@import "blocks/promo.scss";
+@import "blocks/editor.scss";
+@import "blocks/reviews.scss";
+@import "blocks/slider.scss";
 @import "blocks/social.scss";
-@import "blocks/copyright.scss";
+@import "blocks/user-posts.scss";
