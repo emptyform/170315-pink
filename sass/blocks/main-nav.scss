@@ -19,7 +19,18 @@
     background: url("../img/icon-menu-burger.svg") no-repeat;
     background-size: 50px 24px;
     cursor: pointer;
+
+    &:hover {
+      background: url("../img/icon-menu-burger-pink.svg") no-repeat;
+      background-size: 50px 24px;
     }
+
+    &:active {
+      background: url("../img/icon-menu-burger-pink.svg") no-repeat;
+      background-size: 50px 24px;
+      opacity: 0.3;
+    }
+  }
 
   &--active {
     background-color: $gray--dark;
@@ -29,6 +40,17 @@
       width: 24px;
       background: url("../img/icon-menu-cross.svg") no-repeat;
       background-size: 23px 22px;
+
+      &:hover {
+        background: url("../img/icon-menu-cross-pink.svg") no-repeat;
+        background-size: 23px 22px;
+      }
+
+      &:active {
+        background: url("../img/icon-menu-cross-pink.svg") no-repeat;
+        background-size: 23px 22px;
+        opacity: 0.3;
+      }
     }
   }
 }

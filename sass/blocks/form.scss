@@ -41,16 +41,16 @@
     color: $gray--dark;
 
     &:hover {
-      border-color: $gray--dark;
+      border-color: #283646;
     }
 
     &:focus {
       border-color: $pink;
     }
-  }
 
-  &:last-child {
+    &:last-child {
     margin-bottom: 0;
+    }
   }
 }
 
