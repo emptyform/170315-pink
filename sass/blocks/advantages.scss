@@ -49,7 +49,7 @@
       left: 50%;
       width: 157px;
       height: 280px;
-      background-image: url("../../img/iphone-screen-mobile@1x.png");
+      background-image: url("../img/iphone-screen-mobile@1x.png");
       background-repeat: no-repeat;
       background-size: 157px auto;
       transform: translateX(-50%);
@@ -84,7 +84,7 @@
     &:nth-child(3) {
       &::before {
         @media #{$retina} {
-          background-image: url("");
+          background-image: url("../img/iphone-screen-mobile@2x.png");
         }
       }
     }
@@ -95,8 +95,7 @@
 @media #{$tablet} {
   .advantages {
       padding-top: 50px;
-      background-image: url("../../img/iphone-screen-mobile@1x.png");
-      linear-gradient: (bottom, transparent, transparent 241px, $bg--gray 241px, $bg--gray);
+      background-image: url("../img/bg-triangle-white.svg"), linear-gradient(to bottom, transparent, transparent 241px, $bg--gray 241px, $bg--gray);
       background-position: 0 240px, 0 0;
       background-size: 100% 50px, auto auto;
     }
@@ -130,12 +129,12 @@
           left: 0;
           width: 268px;
           height: 481px;
-          background-image: url("../../img/iphone-screen-mobile@1x.png");
+          background-image: url("../img/iphone-screen-3-tablet@1x.png");
           background-size: 268px auto;
           transform: none;
 
           @media #{$retina} {
-            background-image: url("../../img/iphone-screen-mobile@1x.png");
+            background-image: url("../img/iphone-screen-3-tablet@2x.png");
           }
         }
       }
@@ -164,7 +163,7 @@
           left: 0;
           width: 238px;
           height: 276px;
-          background-image: url(""), url("");
+          background-image: url("../img/icon-editor-diagram-fill.svg"), url("../img/icon-timer.svg");
           background-repeat: no-repeat, no-repeat;
           background-position: 18px 55px, 0 0;
           background-size: 202px 202px, 238px auto;
@@ -261,24 +260,24 @@
 
     &:nth-child(1) {
       &::before {
-        background-image: url("../../img/iphone-screen-mobile@1x.png");
+        background-image: url("../img/iphone-screen-1-desktop@1x.png");
         background-repeat: no-repeat;
         background-size: 292px auto;
 
         @media #{$retina} {
-          background-image: url("../../img/iphone-screen-mobile@1x.png");
+          background-image: url("../img/iphone-screen-1-desktop@2x.png");
         }
       }
     }
 
     &:nth-child(2) {
       &::before {
-        background-image: url("../../img/iphone-screen-mobile@1x.png");
+        background-image: url("../img/iphone-screen-2-desktop@1x.png");
         background-repeat: no-repeat;
         background-size: 292px auto;
 
         @media #{$retina} {
-          background-image: url("../../img/iphone-screen-mobile@1x.png");
+          background-image: url("../img/iphone-screen-2-desktop@2x.png");
         }
       }
     }
@@ -291,12 +290,12 @@
         left: auto;
         width: 292px;
         height: 302px;
-        background-image: url("../../img/iphone-screen-mobile@1x.png");
+        background-image: url("../img/iphone-screen-3-desktop@1x.png");
         background-size: 292px auto;
         transform: translateX(50%);
 
         @media #{$retina} {
-          background-image: url("../../img/iphone-screen-mobile@1x.png");
+          background-image: url("../img/iphone-screen-3-desktop@2x.png");
         }
       }
     }

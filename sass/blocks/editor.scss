@@ -26,14 +26,14 @@
 .editor__option {
   display: block;
   width: 48px;
-  height: 48px;
+  height: 44px;
   margin-right: 34px;
   font-size: 0;
   opacity: 0.3;
 
   &:nth-of-type(1) {
     width: 44px;
-    background-image: url("../../img/icon-editor-crop.svg");
+    background-image: url("../img/icon-editor-crop.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 44px 44px;
@@ -58,15 +58,15 @@
     opacity: 1;
 
     &:nth-of-type(1) {
-      background-image: url("../img/icon-editor-crop.svg");
+      background-image: url("../img/icon-editor-crop-pink.svg");
     }
 
     &:nth-of-type(2) {
-      background-image: url("../img/icon-editor-fill.svg");
+      background-image: url("../img/icon-editor-fill-pink.svg");
     }
 
     &:nth-of-type(3) {
-      background-image: url("../img/icon-editor-contrast.svg");
+      background-image: url("../img/icon-editor-contrast-pink.svg");
     }
   }
 
@@ -143,19 +143,19 @@
 
     &:nth-of-type(1) {
       width: 24px;
-      background-image: url("../img/icon-editor-crop.svg");
+      background-image: url("../img/icon-editor-crop-pink.svg");
       background-position: top;
       background-size: 22px 22px;
     }
 
     &:nth-of-type(2) {
-      background-image: url("../img/icon-editor-fill.svg");
+      background-image: url("../img/icon-editor-fill-pink.svg");
       background-position: 3px 3px;
       background-size: 24px 22px;
     }
 
     &:nth-of-type(3) {
-      background-image: url("../img/icon-editor-contrast.svg");
+      background-image: url("../img/icon-editor-contrast-pink.svg");
       background-position: 8px 2px;
       background-size: 16px 16px;
     }
