@@ -11,3 +11,9 @@ $txt-black: #000000;
 $bg--white: #ffffff;
 $bg--dark: #1d2631;
 $bg--gray: #efefef;
+$bg--transparent: rgba(0, 0, 0, 0.3);
+
+$mobile: "(max-width: 659px)";
+$tablet: "(min-width: 660px)";
+$desktop: "(min-width: 960px)";
+$retina: "(min-resolution: 144dpi)", "(min-resolution: 1.5dppx)";
